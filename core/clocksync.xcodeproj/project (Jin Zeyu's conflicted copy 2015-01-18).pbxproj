@@ -1,0 +1,1122 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3427C1A1A61399600142AFD /* RmmApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3427C181A61399600142AFD /* RmmApp.cpp */; };
+		F349AD3C1A69826400F2B3C9 /* RmmApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3427C181A61399600142AFD /* RmmApp.cpp */; };
+		F349AD3D1A69826400F2B3C9 /* MalloAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EC22481A630CD4007CD737 /* MalloAlgorithms.cpp */; };
+		F349AD3E1A69826400F2B3C9 /* RmmNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B41E191A5C11A50028C150 /* RmmNode.cpp */; };
+		F349AD401A69826400F2B3C9 /* MalloControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EC222D1A630308007CD737 /* MalloControl.cpp */; };
+		F349AD421A69826400F2B3C9 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3744CA21A680CA500BE41B4 /* libLeap.dylib */; };
+		F349AD431A69826400F2B3C9 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECFFBD1A251C6B00B91E63 /* liblo.7.dylib */; };
+		F349AD441A69826400F2B3C9 /* libgslcblas.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EC224C1A636871007CD737 /* libgslcblas.0.dylib */; };
+		F349AD451A69826400F2B3C9 /* libgsl.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EC22461A630C7B007CD737 /* libgsl.0.dylib */; };
+		F349AD471A69826400F2B3C9 /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F3744CA21A680CA500BE41B4 /* libLeap.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F349AD481A69826400F2B3C9 /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = F3996F741A6440EC00843DDF /* data */; };
+		F349AD4F1A6982A100F2B3C9 /* prediction-test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F349AD4D1A69827B00F2B3C9 /* prediction-test.cpp */; };
+		F349AD531A69865E00F2B3C9 /* MalloPredictor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F349AD501A69837900F2B3C9 /* MalloPredictor.cpp */; };
+		F349AD541A69866300F2B3C9 /* MalloPredictor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F349AD501A69837900F2B3C9 /* MalloPredictor.cpp */; };
+		F349AD551A69866300F2B3C9 /* MalloPredictor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F349AD501A69837900F2B3C9 /* MalloPredictor.cpp */; };
+		F349AD561A69866400F2B3C9 /* MalloPredictor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F349AD501A69837900F2B3C9 /* MalloPredictor.cpp */; };
+		F349AD571A69866500F2B3C9 /* MalloPredictor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F349AD501A69837900F2B3C9 /* MalloPredictor.cpp */; };
+		F349AD581A69866600F2B3C9 /* MalloPredictor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F349AD501A69837900F2B3C9 /* MalloPredictor.cpp */; };
+		F3744C6C1A678C1B00BE41B4 /* RmmApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3427C181A61399600142AFD /* RmmApp.cpp */; };
+		F3744C6D1A678C1B00BE41B4 /* MalloAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EC22481A630CD4007CD737 /* MalloAlgorithms.cpp */; };
+		F3744C6E1A678C1B00BE41B4 /* RmmNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B41E191A5C11A50028C150 /* RmmNode.cpp */; };
+		F3744C701A678C1B00BE41B4 /* MalloControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EC222D1A630308007CD737 /* MalloControl.cpp */; };
+		F3744C721A678C1B00BE41B4 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECFFBD1A251C6B00B91E63 /* liblo.7.dylib */; };
+		F3744C731A678C1B00BE41B4 /* libgslcblas.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EC224C1A636871007CD737 /* libgslcblas.0.dylib */; };
+		F3744C741A678C1B00BE41B4 /* libgsl.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EC22461A630C7B007CD737 /* libgsl.0.dylib */; };
+		F3744C761A678C1B00BE41B4 /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = F3996F741A6440EC00843DDF /* data */; };
+		F3744C7E1A678D8B00BE41B4 /* run-simulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3996F701A64408700843DDF /* run-simulation.cpp */; };
+		F3744C811A67FD2A00BE41B4 /* RmmApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3427C181A61399600142AFD /* RmmApp.cpp */; };
+		F3744C821A67FD2A00BE41B4 /* MalloAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EC22481A630CD4007CD737 /* MalloAlgorithms.cpp */; };
+		F3744C841A67FD2A00BE41B4 /* RmmNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B41E191A5C11A50028C150 /* RmmNode.cpp */; };
+		F3744C851A67FD2A00BE41B4 /* MalloControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EC222D1A630308007CD737 /* MalloControl.cpp */; };
+		F3744C871A67FD2A00BE41B4 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECFFBD1A251C6B00B91E63 /* liblo.7.dylib */; };
+		F3744C881A67FD2A00BE41B4 /* libgslcblas.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EC224C1A636871007CD737 /* libgslcblas.0.dylib */; };
+		F3744C891A67FD2A00BE41B4 /* libgsl.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EC22461A630C7B007CD737 /* libgsl.0.dylib */; };
+		F3744C8B1A67FD2A00BE41B4 /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = F3996F741A6440EC00843DDF /* data */; };
+		F3744C921A67FDF600BE41B4 /* run-overlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3744C7B1A678C3500BE41B4 /* run-overlay.cpp */; };
+		F3744C931A67FDF900BE41B4 /* run-redirect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3744C901A67FD5200BE41B4 /* run-redirect.cpp */; };
+		F3744CA31A680CA500BE41B4 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3744CA21A680CA500BE41B4 /* libLeap.dylib */; };
+		F3744CA41A680D0700BE41B4 /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F3744CA21A680CA500BE41B4 /* libLeap.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F3996F631A64406700843DDF /* RmmApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3427C181A61399600142AFD /* RmmApp.cpp */; };
+		F3996F641A64406700843DDF /* MalloAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EC22481A630CD4007CD737 /* MalloAlgorithms.cpp */; };
+		F3996F651A64406700843DDF /* RmmNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B41E191A5C11A50028C150 /* RmmNode.cpp */; };
+		F3996F661A64406700843DDF /* MalloControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EC222D1A630308007CD737 /* MalloControl.cpp */; };
+		F3996F681A64406700843DDF /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECFFBD1A251C6B00B91E63 /* liblo.7.dylib */; };
+		F3996F691A64406700843DDF /* libgslcblas.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EC224C1A636871007CD737 /* libgslcblas.0.dylib */; };
+		F3996F6A1A64406700843DDF /* libgsl.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EC22461A630C7B007CD737 /* libgsl.0.dylib */; };
+		F3996F751A6440EE00843DDF /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = F3996F741A6440EC00843DDF /* data */; };
+		F3B41E1B1A5C11A50028C150 /* RmmNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B41E191A5C11A50028C150 /* RmmNode.cpp */; };
+		F3EC22321A6303BD007CD737 /* RmmApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3427C181A61399600142AFD /* RmmApp.cpp */; };
+		F3EC22331A6303BD007CD737 /* RmmNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B41E191A5C11A50028C150 /* RmmNode.cpp */; };
+		F3EC22341A6303BD007CD737 /* MalloControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EC222D1A630308007CD737 /* MalloControl.cpp */; };
+		F3EC22371A6303BD007CD737 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECFFBD1A251C6B00B91E63 /* liblo.7.dylib */; };
+		F3EC22401A630BDC007CD737 /* run-local.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3ECFFB11A251AF500B91E63 /* run-local.cpp */; };
+		F3EC22411A630BE0007CD737 /* run-client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EC223D1A6303E6007CD737 /* run-client.cpp */; };
+		F3EC22471A630C7B007CD737 /* libgsl.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EC22461A630C7B007CD737 /* libgsl.0.dylib */; };
+		F3EC224B1A630E9F007CD737 /* MalloAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EC22481A630CD4007CD737 /* MalloAlgorithms.cpp */; };
+		F3EC224D1A636871007CD737 /* libgslcblas.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EC224C1A636871007CD737 /* libgslcblas.0.dylib */; };
+		F3EC22501A63D9F7007CD737 /* RmmApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3427C181A61399600142AFD /* RmmApp.cpp */; };
+		F3EC22511A63D9F7007CD737 /* RmmNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B41E191A5C11A50028C150 /* RmmNode.cpp */; };
+		F3EC22551A63D9F7007CD737 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECFFBD1A251C6B00B91E63 /* liblo.7.dylib */; };
+		F3EC22601A63F05A007CD737 /* RmmApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3427C181A61399600142AFD /* RmmApp.cpp */; };
+		F3EC22621A63F05A007CD737 /* RmmNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3B41E191A5C11A50028C150 /* RmmNode.cpp */; };
+		F3EC22641A63F05A007CD737 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECFFBD1A251C6B00B91E63 /* liblo.7.dylib */; };
+		F3EC226D1A63F132007CD737 /* run-relay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EC225B1A63DA39007CD737 /* run-relay.cpp */; };
+		F3EC226E1A63F137007CD737 /* run-exp-linkrelay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3EC226A1A63F087007CD737 /* run-exp-linkrelay.cpp */; };
+		F3ECFFBE1A251C6B00B91E63 /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ECFFBD1A251C6B00B91E63 /* liblo.7.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F349AD461A69826400F2B3C9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = .;
+			dstSubfolderSpec = 6;
+			files = (
+				F349AD471A69826400F2B3C9 /* libLeap.dylib in CopyFiles */,
+				F349AD481A69826400F2B3C9 /* data in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3744C751A678C1B00BE41B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = .;
+			dstSubfolderSpec = 6;
+			files = (
+				F3744C761A678C1B00BE41B4 /* data in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3744C8A1A67FD2A00BE41B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = .;
+			dstSubfolderSpec = 6;
+			files = (
+				F3744CA41A680D0700BE41B4 /* libLeap.dylib in CopyFiles */,
+				F3744C8B1A67FD2A00BE41B4 /* data in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3996F6B1A64406700843DDF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = .;
+			dstSubfolderSpec = 6;
+			files = (
+				F3996F751A6440EE00843DDF /* data in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EC22381A6303BD007CD737 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EC22561A63D9F7007CD737 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EC22651A63F05A007CD737 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3ECFFAC1A251AF500B91E63 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F3427C181A61399600142AFD /* RmmApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RmmApp.cpp; sourceTree = "<group>"; };
+		F3427C191A61399600142AFD /* RmmApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RmmApp.h; sourceTree = "<group>"; };
+		F349AD4C1A69826400F2B3C9 /* prediction-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "prediction-test"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F349AD4D1A69827B00F2B3C9 /* prediction-test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "prediction-test.cpp"; sourceTree = "<group>"; };
+		F349AD501A69837900F2B3C9 /* MalloPredictor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MalloPredictor.cpp; sourceTree = "<group>"; };
+		F349AD511A69837900F2B3C9 /* MalloPredictor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MalloPredictor.h; sourceTree = "<group>"; };
+		F3744C7A1A678C1B00BE41B4 /* run-overlay-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "run-overlay-test"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3744C7B1A678C3500BE41B4 /* run-overlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "run-overlay.cpp"; sourceTree = "<group>"; };
+		F3744C8F1A67FD2B00BE41B4 /* run-redirect-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "run-redirect-test"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3744C901A67FD5200BE41B4 /* run-redirect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "run-redirect.cpp"; sourceTree = "<group>"; };
+		F3744C971A680B4E00BE41B4 /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Leap.h; path = ../../LeapSDK/include/Leap.h; sourceTree = "<group>"; };
+		F3744C991A680B4E00BE41B4 /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeapMath.h; path = ../../LeapSDK/include/LeapMath.h; sourceTree = "<group>"; };
+		F3744CA21A680CA500BE41B4 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = ../../../../LocalDev/LeapSDK/LeapSDK/lib/libLeap.dylib; sourceTree = "<group>"; };
+		F3996F6F1A64406700843DDF /* run-simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "run-simulation"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3996F701A64408700843DDF /* run-simulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "run-simulation.cpp"; sourceTree = "<group>"; };
+		F3996F741A6440EC00843DDF /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../data; sourceTree = "<group>"; };
+		F3B41E191A5C11A50028C150 /* RmmNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RmmNode.cpp; sourceTree = "<group>"; };
+		F3B41E1A1A5C11A50028C150 /* RmmNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RmmNode.h; sourceTree = "<group>"; };
+		F3EC222D1A630308007CD737 /* MalloControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MalloControl.cpp; sourceTree = "<group>"; };
+		F3EC222E1A630308007CD737 /* MalloControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MalloControl.h; sourceTree = "<group>"; };
+		F3EC223C1A6303BD007CD737 /* run-client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "run-client"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EC223D1A6303E6007CD737 /* run-client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "run-client.cpp"; sourceTree = "<group>"; };
+		F3EC22461A630C7B007CD737 /* libgsl.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgsl.0.dylib; path = ../../../../../../../usr/local/lib/libgsl.0.dylib; sourceTree = "<group>"; };
+		F3EC22481A630CD4007CD737 /* MalloAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MalloAlgorithms.cpp; sourceTree = "<group>"; };
+		F3EC22491A630CD4007CD737 /* MalloAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MalloAlgorithms.h; sourceTree = "<group>"; };
+		F3EC224C1A636871007CD737 /* libgslcblas.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgslcblas.0.dylib; path = ../../../../../../../usr/local/lib/libgslcblas.0.dylib; sourceTree = "<group>"; };
+		F3EC225A1A63D9F7007CD737 /* run-relay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "run-relay"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EC225B1A63DA39007CD737 /* run-relay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "run-relay.cpp"; sourceTree = "<group>"; };
+		F3EC22691A63F05A007CD737 /* run-exp-linkrelay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "run-exp-linkrelay"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EC226A1A63F087007CD737 /* run-exp-linkrelay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "run-exp-linkrelay.cpp"; sourceTree = "<group>"; };
+		F3ECFFAE1A251AF500B91E63 /* test-alllocal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-alllocal"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3ECFFB11A251AF500B91E63 /* run-local.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "run-local.cpp"; sourceTree = "<group>"; };
+		F3ECFFBD1A251C6B00B91E63 /* liblo.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblo.7.dylib; path = ../../../../../../../usr/local/lib/liblo.7.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F349AD411A69826400F2B3C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F349AD421A69826400F2B3C9 /* libLeap.dylib in Frameworks */,
+				F349AD431A69826400F2B3C9 /* liblo.7.dylib in Frameworks */,
+				F349AD441A69826400F2B3C9 /* libgslcblas.0.dylib in Frameworks */,
+				F349AD451A69826400F2B3C9 /* libgsl.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3744C711A678C1B00BE41B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3744C721A678C1B00BE41B4 /* liblo.7.dylib in Frameworks */,
+				F3744C731A678C1B00BE41B4 /* libgslcblas.0.dylib in Frameworks */,
+				F3744C741A678C1B00BE41B4 /* libgsl.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3744C861A67FD2A00BE41B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3744CA31A680CA500BE41B4 /* libLeap.dylib in Frameworks */,
+				F3744C871A67FD2A00BE41B4 /* liblo.7.dylib in Frameworks */,
+				F3744C881A67FD2A00BE41B4 /* libgslcblas.0.dylib in Frameworks */,
+				F3744C891A67FD2A00BE41B4 /* libgsl.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3996F671A64406700843DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3996F681A64406700843DDF /* liblo.7.dylib in Frameworks */,
+				F3996F691A64406700843DDF /* libgslcblas.0.dylib in Frameworks */,
+				F3996F6A1A64406700843DDF /* libgsl.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EC22361A6303BD007CD737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EC22371A6303BD007CD737 /* liblo.7.dylib in Frameworks */,
+				F3EC224D1A636871007CD737 /* libgslcblas.0.dylib in Frameworks */,
+				F3EC22471A630C7B007CD737 /* libgsl.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EC22541A63D9F7007CD737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EC22551A63D9F7007CD737 /* liblo.7.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EC22631A63F05A007CD737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EC22641A63F05A007CD737 /* liblo.7.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3ECFFAB1A251AF500B91E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3ECFFBE1A251C6B00B91E63 /* liblo.7.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3744C961A680B4300BE41B4 /* LeapMotion */ = {
+			isa = PBXGroup;
+			children = (
+				F3744C971A680B4E00BE41B4 /* Leap.h */,
+				F3744C991A680B4E00BE41B4 /* LeapMath.h */,
+			);
+			name = LeapMotion;
+			sourceTree = "<group>";
+		};
+		F3ECFFA51A251AF500B91E63 = {
+			isa = PBXGroup;
+			children = (
+				F3744CA21A680CA500BE41B4 /* libLeap.dylib */,
+				F3996F741A6440EC00843DDF /* data */,
+				F3ECFFB01A251AF500B91E63 /* clocksync */,
+				F3ECFFAF1A251AF500B91E63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3ECFFAF1A251AF500B91E63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3ECFFAE1A251AF500B91E63 /* test-alllocal */,
+				F3EC223C1A6303BD007CD737 /* run-client */,
+				F3EC225A1A63D9F7007CD737 /* run-relay */,
+				F3EC22691A63F05A007CD737 /* run-exp-linkrelay */,
+				F3996F6F1A64406700843DDF /* run-simulation */,
+				F3744C7A1A678C1B00BE41B4 /* run-overlay-test */,
+				F3744C8F1A67FD2B00BE41B4 /* run-redirect-test */,
+				F349AD4C1A69826400F2B3C9 /* prediction-test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3ECFFB01A251AF500B91E63 /* clocksync */ = {
+			isa = PBXGroup;
+			children = (
+				F3744C961A680B4300BE41B4 /* LeapMotion */,
+				F3EC224C1A636871007CD737 /* libgslcblas.0.dylib */,
+				F3EC22461A630C7B007CD737 /* libgsl.0.dylib */,
+				F3ECFFBD1A251C6B00B91E63 /* liblo.7.dylib */,
+				F3B41E191A5C11A50028C150 /* RmmNode.cpp */,
+				F3B41E1A1A5C11A50028C150 /* RmmNode.h */,
+				F3427C181A61399600142AFD /* RmmApp.cpp */,
+				F3427C191A61399600142AFD /* RmmApp.h */,
+				F349AD501A69837900F2B3C9 /* MalloPredictor.cpp */,
+				F349AD511A69837900F2B3C9 /* MalloPredictor.h */,
+				F3EC222D1A630308007CD737 /* MalloControl.cpp */,
+				F3EC222E1A630308007CD737 /* MalloControl.h */,
+				F3EC22481A630CD4007CD737 /* MalloAlgorithms.cpp */,
+				F3EC22491A630CD4007CD737 /* MalloAlgorithms.h */,
+				F3ECFFB11A251AF500B91E63 /* run-local.cpp */,
+				F3EC223D1A6303E6007CD737 /* run-client.cpp */,
+				F3EC225B1A63DA39007CD737 /* run-relay.cpp */,
+				F3EC226A1A63F087007CD737 /* run-exp-linkrelay.cpp */,
+				F3996F701A64408700843DDF /* run-simulation.cpp */,
+				F3744C7B1A678C3500BE41B4 /* run-overlay.cpp */,
+				F3744C901A67FD5200BE41B4 /* run-redirect.cpp */,
+				F349AD4D1A69827B00F2B3C9 /* prediction-test.cpp */,
+			);
+			path = clocksync;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F349AD3A1A69826400F2B3C9 /* prediction-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F349AD491A69826400F2B3C9 /* Build configuration list for PBXNativeTarget "prediction-test" */;
+			buildPhases = (
+				F349AD3B1A69826400F2B3C9 /* Sources */,
+				F349AD411A69826400F2B3C9 /* Frameworks */,
+				F349AD461A69826400F2B3C9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prediction-test";
+			productName = clocksync;
+			productReference = F349AD4C1A69826400F2B3C9 /* prediction-test */;
+			productType = "com.apple.product-type.tool";
+		};
+		F3744C6A1A678C1B00BE41B4 /* overlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3744C771A678C1B00BE41B4 /* Build configuration list for PBXNativeTarget "overlay" */;
+			buildPhases = (
+				F3744C6B1A678C1B00BE41B4 /* Sources */,
+				F3744C711A678C1B00BE41B4 /* Frameworks */,
+				F3744C751A678C1B00BE41B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = overlay;
+			productName = clocksync;
+			productReference = F3744C7A1A678C1B00BE41B4 /* run-overlay-test */;
+			productType = "com.apple.product-type.tool";
+		};
+		F3744C7F1A67FD2A00BE41B4 /* redirected-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3744C8C1A67FD2A00BE41B4 /* Build configuration list for PBXNativeTarget "redirected-client" */;
+			buildPhases = (
+				F3744C801A67FD2A00BE41B4 /* Sources */,
+				F3744C861A67FD2A00BE41B4 /* Frameworks */,
+				F3744C8A1A67FD2A00BE41B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "redirected-client";
+			productName = clocksync;
+			productReference = F3744C8F1A67FD2B00BE41B4 /* run-redirect-test */;
+			productType = "com.apple.product-type.tool";
+		};
+		F3996F601A64406700843DDF /* client-simulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3996F6C1A64406700843DDF /* Build configuration list for PBXNativeTarget "client-simulation" */;
+			buildPhases = (
+				F3996F611A64406700843DDF /* Sources */,
+				F3996F671A64406700843DDF /* Frameworks */,
+				F3996F6B1A64406700843DDF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "client-simulation";
+			productName = clocksync;
+			productReference = F3996F6F1A64406700843DDF /* run-simulation */;
+			productType = "com.apple.product-type.tool";
+		};
+		F3EC22301A6303BD007CD737 /* client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EC22391A6303BD007CD737 /* Build configuration list for PBXNativeTarget "client" */;
+			buildPhases = (
+				F3EC22311A6303BD007CD737 /* Sources */,
+				F3EC22361A6303BD007CD737 /* Frameworks */,
+				F3EC22381A6303BD007CD737 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = client;
+			productName = clocksync;
+			productReference = F3EC223C1A6303BD007CD737 /* run-client */;
+			productType = "com.apple.product-type.tool";
+		};
+		F3EC224E1A63D9F7007CD737 /* relay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EC22571A63D9F7007CD737 /* Build configuration list for PBXNativeTarget "relay" */;
+			buildPhases = (
+				F3EC224F1A63D9F7007CD737 /* Sources */,
+				F3EC22541A63D9F7007CD737 /* Frameworks */,
+				F3EC22561A63D9F7007CD737 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = relay;
+			productName = clocksync;
+			productReference = F3EC225A1A63D9F7007CD737 /* run-relay */;
+			productType = "com.apple.product-type.tool";
+		};
+		F3EC225E1A63F05A007CD737 /* test-linkrelay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3EC22661A63F05A007CD737 /* Build configuration list for PBXNativeTarget "test-linkrelay" */;
+			buildPhases = (
+				F3EC225F1A63F05A007CD737 /* Sources */,
+				F3EC22631A63F05A007CD737 /* Frameworks */,
+				F3EC22651A63F05A007CD737 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-linkrelay";
+			productName = clocksync;
+			productReference = F3EC22691A63F05A007CD737 /* run-exp-linkrelay */;
+			productType = "com.apple.product-type.tool";
+		};
+		F3ECFFAD1A251AF500B91E63 /* test-alllocal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3ECFFB51A251AF500B91E63 /* Build configuration list for PBXNativeTarget "test-alllocal" */;
+			buildPhases = (
+				F3ECFFAA1A251AF500B91E63 /* Sources */,
+				F3ECFFAB1A251AF500B91E63 /* Frameworks */,
+				F3ECFFAC1A251AF500B91E63 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "test-alllocal";
+			productName = clocksync;
+			productReference = F3ECFFAE1A251AF500B91E63 /* test-alllocal */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3ECFFA61A251AF500B91E63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Zeyu Jin";
+				TargetAttributes = {
+					F3ECFFAD1A251AF500B91E63 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = F3ECFFA91A251AF500B91E63 /* Build configuration list for PBXProject "clocksync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3ECFFA51A251AF500B91E63;
+			productRefGroup = F3ECFFAF1A251AF500B91E63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3ECFFAD1A251AF500B91E63 /* test-alllocal */,
+				F3EC22301A6303BD007CD737 /* client */,
+				F3EC224E1A63D9F7007CD737 /* relay */,
+				F3EC225E1A63F05A007CD737 /* test-linkrelay */,
+				F3996F601A64406700843DDF /* client-simulation */,
+				F3744C6A1A678C1B00BE41B4 /* overlay */,
+				F3744C7F1A67FD2A00BE41B4 /* redirected-client */,
+				F349AD3A1A69826400F2B3C9 /* prediction-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F349AD3B1A69826400F2B3C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F349AD3C1A69826400F2B3C9 /* RmmApp.cpp in Sources */,
+				F349AD3D1A69826400F2B3C9 /* MalloAlgorithms.cpp in Sources */,
+				F349AD3E1A69826400F2B3C9 /* RmmNode.cpp in Sources */,
+				F349AD531A69865E00F2B3C9 /* MalloPredictor.cpp in Sources */,
+				F349AD4F1A6982A100F2B3C9 /* prediction-test.cpp in Sources */,
+				F349AD401A69826400F2B3C9 /* MalloControl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3744C6B1A678C1B00BE41B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3744C921A67FDF600BE41B4 /* run-overlay.cpp in Sources */,
+				F3744C6C1A678C1B00BE41B4 /* RmmApp.cpp in Sources */,
+				F349AD551A69866300F2B3C9 /* MalloPredictor.cpp in Sources */,
+				F3744C6D1A678C1B00BE41B4 /* MalloAlgorithms.cpp in Sources */,
+				F3744C6E1A678C1B00BE41B4 /* RmmNode.cpp in Sources */,
+				F3744C701A678C1B00BE41B4 /* MalloControl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3744C801A67FD2A00BE41B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3744C811A67FD2A00BE41B4 /* RmmApp.cpp in Sources */,
+				F3744C821A67FD2A00BE41B4 /* MalloAlgorithms.cpp in Sources */,
+				F349AD541A69866300F2B3C9 /* MalloPredictor.cpp in Sources */,
+				F3744C841A67FD2A00BE41B4 /* RmmNode.cpp in Sources */,
+				F3744C931A67FDF900BE41B4 /* run-redirect.cpp in Sources */,
+				F3744C851A67FD2A00BE41B4 /* MalloControl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3996F611A64406700843DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3996F631A64406700843DDF /* RmmApp.cpp in Sources */,
+				F3744C7E1A678D8B00BE41B4 /* run-simulation.cpp in Sources */,
+				F349AD561A69866400F2B3C9 /* MalloPredictor.cpp in Sources */,
+				F3996F641A64406700843DDF /* MalloAlgorithms.cpp in Sources */,
+				F3996F651A64406700843DDF /* RmmNode.cpp in Sources */,
+				F3996F661A64406700843DDF /* MalloControl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EC22311A6303BD007CD737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EC22411A630BE0007CD737 /* run-client.cpp in Sources */,
+				F3EC22321A6303BD007CD737 /* RmmApp.cpp in Sources */,
+				F3EC224B1A630E9F007CD737 /* MalloAlgorithms.cpp in Sources */,
+				F3EC22331A6303BD007CD737 /* RmmNode.cpp in Sources */,
+				F3EC22341A6303BD007CD737 /* MalloControl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EC224F1A63D9F7007CD737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F349AD581A69866600F2B3C9 /* MalloPredictor.cpp in Sources */,
+				F3EC22501A63D9F7007CD737 /* RmmApp.cpp in Sources */,
+				F3EC226D1A63F132007CD737 /* run-relay.cpp in Sources */,
+				F3EC22511A63D9F7007CD737 /* RmmNode.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EC225F1A63F05A007CD737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F349AD571A69866500F2B3C9 /* MalloPredictor.cpp in Sources */,
+				F3EC226E1A63F137007CD737 /* run-exp-linkrelay.cpp in Sources */,
+				F3EC22601A63F05A007CD737 /* RmmApp.cpp in Sources */,
+				F3EC22621A63F05A007CD737 /* RmmNode.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3ECFFAA1A251AF500B91E63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3427C1A1A61399600142AFD /* RmmApp.cpp in Sources */,
+				F3B41E1B1A5C11A50028C150 /* RmmNode.cpp in Sources */,
+				F3EC22401A630BDC007CD737 /* run-local.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F349AD4A1A69826400F2B3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+					"/Users/zeyu/Dropbox/Research/2015-01-mallo/LeapSDK/lib/libc++",
+					/Users/zeyu/LocalDev/LeapSDK/LeapSDK/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "prediction-test";
+			};
+			name = Debug;
+		};
+		F349AD4B1A69826400F2B3C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+					"/Users/zeyu/Dropbox/Research/2015-01-mallo/LeapSDK/lib/libc++",
+					/Users/zeyu/LocalDev/LeapSDK/LeapSDK/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "prediction-test";
+			};
+			name = Release;
+		};
+		F3744C781A678C1B00BE41B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+					"/Users/zeyu/Dropbox/Research/2015-01-mallo/LeapSDK/lib/libc++",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "run-overlay-test";
+			};
+			name = Debug;
+		};
+		F3744C791A678C1B00BE41B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+					"/Users/zeyu/Dropbox/Research/2015-01-mallo/LeapSDK/lib/libc++",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "run-overlay-test";
+			};
+			name = Release;
+		};
+		F3744C8D1A67FD2A00BE41B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+					"/Users/zeyu/Dropbox/Research/2015-01-mallo/LeapSDK/lib/libc++",
+					/Users/zeyu/LocalDev/LeapSDK/LeapSDK/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "run-redirect-test";
+			};
+			name = Debug;
+		};
+		F3744C8E1A67FD2A00BE41B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+					"/Users/zeyu/Dropbox/Research/2015-01-mallo/LeapSDK/lib/libc++",
+					/Users/zeyu/LocalDev/LeapSDK/LeapSDK/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "run-redirect-test";
+			};
+			name = Release;
+		};
+		F3996F6D1A64406700843DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+					"/Users/zeyu/Dropbox/Research/2015-01-mallo/LeapSDK/lib/libc++",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "run-simulation";
+			};
+			name = Debug;
+		};
+		F3996F6E1A64406700843DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+					"/Users/zeyu/Dropbox/Research/2015-01-mallo/LeapSDK/lib/libc++",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "run-simulation";
+			};
+			name = Release;
+		};
+		F3EC223A1A6303BD007CD737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+					"/Users/zeyu/Dropbox/Research/2015-01-mallo/LeapSDK/lib/libc++",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "run-client";
+			};
+			name = Debug;
+		};
+		F3EC223B1A6303BD007CD737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+					"/Users/zeyu/Dropbox/Research/2015-01-mallo/LeapSDK/lib/libc++",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "run-client";
+			};
+			name = Release;
+		};
+		F3EC22581A63D9F7007CD737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "run-relay";
+			};
+			name = Debug;
+		};
+		F3EC22591A63D9F7007CD737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "run-relay";
+			};
+			name = Release;
+		};
+		F3EC22671A63F05A007CD737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+					"/Users/zeyu/Dropbox/Research/2015-01-mallo/LeapSDK/lib/libc++",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "run-exp-linkrelay";
+			};
+			name = Debug;
+		};
+		F3EC22681A63F05A007CD737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+					"/Users/zeyu/Dropbox/Research/2015-01-mallo/LeapSDK/lib/libc++",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "run-exp-linkrelay";
+			};
+			name = Release;
+		};
+		F3ECFFB31A251AF500B91E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		F3ECFFB41A251AF500B91E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+		F3ECFFB61A251AF500B91E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3ECFFB71A251AF500B91E63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					../include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clocksync",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F349AD491A69826400F2B3C9 /* Build configuration list for PBXNativeTarget "prediction-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F349AD4A1A69826400F2B3C9 /* Debug */,
+				F349AD4B1A69826400F2B3C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3744C771A678C1B00BE41B4 /* Build configuration list for PBXNativeTarget "overlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3744C781A678C1B00BE41B4 /* Debug */,
+				F3744C791A678C1B00BE41B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3744C8C1A67FD2A00BE41B4 /* Build configuration list for PBXNativeTarget "redirected-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3744C8D1A67FD2A00BE41B4 /* Debug */,
+				F3744C8E1A67FD2A00BE41B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3996F6C1A64406700843DDF /* Build configuration list for PBXNativeTarget "client-simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3996F6D1A64406700843DDF /* Debug */,
+				F3996F6E1A64406700843DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3EC22391A6303BD007CD737 /* Build configuration list for PBXNativeTarget "client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EC223A1A6303BD007CD737 /* Debug */,
+				F3EC223B1A6303BD007CD737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3EC22571A63D9F7007CD737 /* Build configuration list for PBXNativeTarget "relay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EC22581A63D9F7007CD737 /* Debug */,
+				F3EC22591A63D9F7007CD737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3EC22661A63F05A007CD737 /* Build configuration list for PBXNativeTarget "test-linkrelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EC22671A63F05A007CD737 /* Debug */,
+				F3EC22681A63F05A007CD737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3ECFFA91A251AF500B91E63 /* Build configuration list for PBXProject "clocksync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3ECFFB31A251AF500B91E63 /* Debug */,
+				F3ECFFB41A251AF500B91E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3ECFFB51A251AF500B91E63 /* Build configuration list for PBXNativeTarget "test-alllocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3ECFFB61A251AF500B91E63 /* Debug */,
+				F3ECFFB71A251AF500B91E63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3ECFFA61A251AF500B91E63 /* Project object */;
+}
